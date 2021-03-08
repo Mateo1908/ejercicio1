@@ -1,0 +1,9 @@
+#rule{
+	position: absolute;
+	top: 10px;
+	left: 500px;
+	width: 350px;
+    height: 350px;
+    background: #bdc3c7;
+    border-radius: 10px;
+	}

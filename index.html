@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script>
+		var x=11;
+	</script>
+	<title>Ejercicio 1</title>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+
+	
+	<body onload="hola()">
+
+
+	<div id="rule">Hola
+	</div>
+
+
+	<script>
+
+	function saludo()
+	{
+		 console.log(x)
+		x=x-1;
+			cuadro=document.getElementById('rule');
+			cuadro.innerHTML = x;
+			if(x==0){
+				clearInterval(sky);
+
+				document.write("termine");
+			
+		}
+		
+	}
+	function hola(){
+		
+	    sky=setInterval(saludo,1000);
+
+	}
+
+
+
+	</script>
